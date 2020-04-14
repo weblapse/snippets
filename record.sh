@@ -1,0 +1,1 @@
+watch -p -n60 '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --headless --screenshot=/Volumes/external-hd-3/weblapse/data/en.wikipedia.org/$(date +"%Y%m%d_%H%M%S").png --hide-scrollbars --deterministic-mode --virtual-time-budget=30000 --window-size=1920,2160 https://en.wikipedia.org/wiki/Portal:Current_events'
