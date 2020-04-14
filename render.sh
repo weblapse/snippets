@@ -1,0 +1,1 @@
+ffmpeg -framerate 24 -pattern_type glob -i "/Volumes/external-hd-3/weblapse/data/en.wikipedia.org/$(date -v -0d +"%Y%m%d")*.png" -i "/Volumes/external-hd-3/weblapse/music/01.mp3" -s:v 1920x2160 -c:v libx264 -profile:v high -shortest -crf 20 -pix_fmt yuv420p /Volumes/external-hd-3/weblapse/done/o.mp4
